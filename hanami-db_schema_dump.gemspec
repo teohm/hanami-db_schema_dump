@@ -6,9 +6,9 @@ Gem::Specification.new do |spec|
   spec.authors       = ["Huiming Teo"]
   spec.email         = ["teohuiming@gmail.com"]
 
-  spec.summary       = %q{Hanami command-line plugin that dumps PostgreSQL db schema into `db/schema.sql`.}
+  spec.summary       = %q{Hanami command-line plugin that dumps PostgreSQL db schema into `db/structure.sql`.}
   spec.description   = %q{This Hanami command-line plugin dumps your PostgreSQL development database schema
-    into `db/schema.sql` after `hanami db migrate` is executed.}
+    into `db/structure.sql` after `hanami db migrate` is executed.}
   spec.homepage      = "http://github.com/teohm/hanami-db_schema_dump"
   spec.license       = "MIT"
   spec.required_ruby_version = Gem::Requirement.new(">= 2.3.0")

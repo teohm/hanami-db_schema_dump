@@ -1,7 +1,7 @@
 # hanami-db_schema_dump
 
 A Hanami [command-line plugin](https://guides.hanamirb.org/command-line/plugins/) that dumps your PostgreSQL
-development database schema into `db/schema.sql` after `hanami db migrate` is executed.
+development database schema into `db/structure.sql` after `hanami db migrate` is executed.
 
 ## Installation
 
@@ -21,7 +21,7 @@ bundle install
 
 ## Usage
 
-To update `db/schema.sql`, run:
+To update `db/structure.sql`, run:
 
 ```sh
 bundle exec hanami db migrate

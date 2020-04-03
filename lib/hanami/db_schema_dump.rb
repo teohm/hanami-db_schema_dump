@@ -5,7 +5,7 @@ module Hanami
     class Command
       def call(*)
         if ENV["HANAMI_ENV"] == "development"
-          system("pg_dump -s --no-owner --no-privileges #{ENV.fetch('DATABASE_URL')} > db/schema.sql")
+          system("pg_dump -s --no-owner --no-privileges #{ENV.fetch('DATABASE_URL')} > db/structure.sql")
         end
       end
     end
